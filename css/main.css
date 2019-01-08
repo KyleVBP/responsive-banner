@@ -16,15 +16,11 @@ html {
   border: 3px solid #fff;
 }
 
-@media only screen and (min-width: 38em) {
-
-  .btn {
-    float: right;
-  }
-
-}
-
 @media only screen and (min-width: 60em) {
+
+  html {
+    background-color: rgba(0, 0, 0, 0);
+  }
 
   .btn {
     border: 3px solid #efefef;
@@ -34,13 +30,12 @@ html {
     position: relative;
     max-height: 500px;
     overflow: hidden;
-    background-image:
-    linear-gradient(to bottom, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
   }
 
   .banner-content {
     position: absolute;
-    bottom: 200px;
+    top: 283px;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
   }
 
 }
